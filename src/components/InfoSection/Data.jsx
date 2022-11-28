@@ -1,3 +1,5 @@
+import { CarSVG, PigSVG, OfficeSVG } from '../SVGLocal/assets';
+
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
@@ -8,7 +10,7 @@ export const homeObjOne = {
   description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
   buttonLabel: 'Get started',
   imgStart: false,
-  img: 'src/images/svg-2.svg',
+  img: CarSVG,
   alt: 'Car',
   darkText: false,
   dark: true,
@@ -25,7 +27,7 @@ export const homeObjTwo = {
   description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
   buttonLabel: 'Learn More',
   imgStart: true,
-  img: 'src/images/svg-1.svg',
+  img: OfficeSVG,
   alt: 'PiggyBank',
   dark: false,
   primary: false,
@@ -42,7 +44,7 @@ export const homeObjThree = {
   description: "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: 'Start Now',
   imgStart: false,
-  img: 'src/images/svg-4.svg',
+  img: PigSVG,
   alt: 'Car',
   darkText: true,
   dark: true,
